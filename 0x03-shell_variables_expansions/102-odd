@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, -- |cut -d, -f1
+cat -n | gretp [13579][[:space:]] | tr -s ''|cut -f2
